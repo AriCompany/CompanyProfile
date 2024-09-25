@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ekmal Company</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- loader -->
+     <div class="bg-loader">
+        <div class="loader"></div>
+     </div>
+    
+    <!-- Media Sosial -->
+    <div class="medsos">
+        <div class="container">
+            <ul>
+                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fab fa-whatsapp"></i></a></li>
+            </ul>
+        </div>
+    </div>
+
+   
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <h1><a href="index.html">Ekmal Company</a></h1>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="#about">ABOUT US</a></li>
+                <li><a href="contact-me.html">CONTACT ME</a></li>
+                <li class="active"><a href="#service">SERVICE</a></li>
+                <li><a href="team-me.html">TEAM</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- label -->
+    <section class="label">
+        <div class="container">
+            <p>Home / Service</p>
+        </div>
+     </section>
+
+     <!-- service -->
+     <section id="service" class="service-section">
+        <div class="container">
+            <h2 class="section-title">SERVICE</h2>
+            <div class="row service-row">
+                <div class="col-4 service-box">
+                    <div class="icon-circle"><i class="fas fa-mobile"></i></div>
+                    <h4>MOBILE APP</h4>
+                </div>
+                <div class="col-4 service-box">
+                    <div class="icon-circle"><i class="fas fa-comments"></i></div>
+                    <h4>KONSULTASI</h4>
+                </div>
+                <div class="col-4 service-box">
+                    <div class="icon-circle"><i class="fas fa-building"></i></div>
+                    <h4>MANAJEMEN PROPERTI</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- footer -->
+     <footer>
+        <div class="container">
+            <small>Copyright &copy; 2024 - Ekmal Company. All Rights Reserved.</small>
+        </div>
+     </footer>
+
+     <script type="text/javascript">
+        $(document).ready(function(){
+            $(".bg-loader").hide();
+        })
+     </script>
+</body>
+</html>
